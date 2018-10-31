@@ -7,7 +7,12 @@ pageEncoding="UTF-8" %>
 <ingresso:template>
     <jsp:body>
     	<div class=" col-md-6 col-md-offset-3">
-        	<h3 class="text-center">Bem-vindo Ingresso!</h3>
+        	<h3 class="text-center">Bem-vindo Caio!</h3>
         </div>
+        <hr>
+        <br />
+        <br/>
+        <br />
+        <img class="imagem" src ="http://bento.tur.br/wp-content/uploads/2018/06/cinema.jpg" align="middle"/>
     </jsp:body>
 </ingresso:template>

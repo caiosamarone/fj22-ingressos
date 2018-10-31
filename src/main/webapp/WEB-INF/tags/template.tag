@@ -11,6 +11,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
 <jsp:invoke fragment="compra_css"/>
+
+<style>
+	.imagem{
+	display: block;
+    margin-left: auto;
+    margin-top: 20px; 	
+    margin-right: auto;
+    width: 50%;
+	}
+</style>
 </head>
 <body>
 	<nav class="navbar navbar-default">
