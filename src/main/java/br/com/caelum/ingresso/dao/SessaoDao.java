@@ -4,11 +4,11 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-
 import javax.persistence.TypedQuery;
 
 import org.springframework.stereotype.Repository;
 
+import br.com.caelum.ingresso.model.Filme;
 import br.com.caelum.ingresso.model.Sala;
 import br.com.caelum.ingresso.model.Sessao;
 
@@ -27,4 +27,11 @@ public class SessaoDao {
 		createQuery.setParameter("sala", sala);
 		return createQuery.getResultList();
 	}
+	public List<Sessao> buscaSessoesDoFilme(Filme filme){
+		TypedQuery<Sessao> createQuery = manager.createQuery("select s from Sessao s where s.filme= :filme", Sessao.class);
+		createQuery.setParameter("filme", filme);
+		return createQuery.getResultList();
+	}
+
+	
 }
