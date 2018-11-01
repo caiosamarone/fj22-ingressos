@@ -109,7 +109,7 @@
 	                    <th>Tipo de Ingresso</th>
 	                </thead>
 	                <tbody>
-	
+						
 	                </tbody>
 	            </table>
 	

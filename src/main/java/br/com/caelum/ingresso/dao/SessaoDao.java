@@ -33,5 +33,7 @@ public class SessaoDao {
 		return createQuery.getResultList();
 	}
 
-	
+	public Sessao findOne(Integer id){
+		return manager.find(Sessao.class,id);
+	}
 }
